@@ -14,7 +14,7 @@ export const Navbar = () => {
           <li className="logo">
             <a
               className="nav-link text-white font-weight-bold"
-              href="/gun-violence-dashboard"
+              href="gun-violence-dashboard"
             >
               Gun Violence Dashboard
             </a>
@@ -22,7 +22,7 @@ export const Navbar = () => {
           <li className="nav-item p-2">
             <a
               className="nav-link text-white font-weight-bold"
-              href="/gun-violence-dashboard"
+              href="gun-violence-dashboard"
             >
               Home
             </a>
@@ -30,7 +30,7 @@ export const Navbar = () => {
           <li className="nav-item p-2">
             <a
               className="nav-link text-white font-weight-bold"
-              href="/gun-violence-dashboard/explore"
+              href="gun-violence-dashboard/explore"
             >
               Explore
             </a>
@@ -38,7 +38,7 @@ export const Navbar = () => {
           <li className="nav-item p-2">
             <a
               className="nav-link text-white font-weight-bold"
-              href="/gun-violence-dashboard/compare"
+              href="gun-violence-dashboard/compare"
             >
               Compare
             </a>
@@ -46,7 +46,7 @@ export const Navbar = () => {
           <li className="nav-item p-2">
             <a
               className="nav-link text-white font-weight-bold"
-              href="/gun-violence-dashboard/about"
+              href="gun-violence-dashboard/about"
             >
               About
             </a>
@@ -57,22 +57,22 @@ export const Navbar = () => {
         <Routes>
           <Route
             title="Homepage"
-            path="/gun-violence-dashboard"
+            path="gun-violence-dashboard"
             element={<Homepage />}
           />
           <Route
             title="Explore"
-            path="/gun-violence-dashboard/explore"
+            path="gun-violence-dashboard/explore"
             element={<Explore />}
           />
           <Route
             title="Compare"
-            path="/gun-violence-dashboard/compare"
+            path="gun-violence-dashboard/compare"
             element={<Compare />}
           />
           <Route
             title="About"
-            path="/gun-violence-dashboard/about"
+            path="gun-violence-dashboard/about"
             element={<About />}
           />
         </Routes>
