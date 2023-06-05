@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import USAMap from "react-usa-map";
-import axios from 'axios';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -15,7 +14,6 @@ import states from '../constants/map_constants';
 import stateIds from "../constants/state_ids";
 import { fetchAvgFatalityData, fetchStateGrade, fetchGunOwnershipLevels, fetchProhibitedFireArms, fetchTotalNumberOfGunDeaths } from '../pages/Homepage.service'
 import $ from 'jquery';
-import ReactDom from 'react-dom';
 import './styles/homepage.css';
 
 ChartJS.register(
