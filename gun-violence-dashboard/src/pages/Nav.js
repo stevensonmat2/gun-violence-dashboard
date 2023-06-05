@@ -12,19 +12,19 @@ export const Navbar = () => {
         <><nav className="navbar navbar-expand navbar-light text-align-center bg-primary">
             <ul className="navbar-nav d-flex flex-wrap">
                 <li className="logo">
-                    <a className="nav-link text-white font-weight-bold" href="/">Gun Violence Dashboard</a>
+                    <a className="nav-link text-white font-weight-bold" href="/gun-violence-dashboard">Gun Violence Dashboard</a>
                 </li>
                 <li className="nav-item p-2">
-                    <a className="nav-link text-white font-weight-bold" href="/">Home</a>
+                    <a className="nav-link text-white font-weight-bold" href="/gun-violence-dashboard">Home</a>
                 </li>
                 <li className="nav-item p-2">
-                    <a className="nav-link text-white font-weight-bold" href="/explore">Explore</a>
+                    <a className="nav-link text-white font-weight-bold" href="/gun-violence-dashboard/explore">Explore</a>
                 </li>
                 <li className="nav-item p-2">
-                    <a className="nav-link text-white font-weight-bold" href="/compare">Compare</a>
+                    <a className="nav-link text-white font-weight-bold" href="/gun-violence-dashboard/compare">Compare</a>
                 </li>
                 <li className="nav-item p-2">
-                    <a className="nav-link text-white font-weight-bold" href="/about">About</a>
+                    <a className="nav-link text-white font-weight-bold" href="/gun-violence-dashboard/about">About</a>
                 </li>
             </ul>
         </nav>
