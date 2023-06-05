@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gun-violence-dashboard/static/css/main.058ce5b8.css",
+    "main.js": "/gun-violence-dashboard/static/js/main.2768bb5c.js",
+    "static/media/loader.gif": "/gun-violence-dashboard/static/media/loader.a1a996746e5e48352c81.gif",
+    "index.html": "/gun-violence-dashboard/index.html",
+    "main.058ce5b8.css.map": "/gun-violence-dashboard/static/css/main.058ce5b8.css.map",
+    "main.2768bb5c.js.map": "/gun-violence-dashboard/static/js/main.2768bb5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.058ce5b8.css",
+    "static/js/main.2768bb5c.js"
+  ]
+}
