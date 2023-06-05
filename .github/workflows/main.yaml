@@ -1,0 +1,30 @@
+# GitHub Action set up in main.yaml
+# Name of the GitHub Action. In this case, “Deploy to GitHub Pages”
+name: Deploy to GitHub Pages
+# Specify when the action will run. In this example, on “git push” commands to
+# the “main” branch
+on:
+  push:
+    branches:
+      - main
+# A workflow run is made up of one or more jobs that can run sequentially or in
+parallel. The workflow run in this GitHub Action is set up on the next slide.
+
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
+      - name: Install and Build
+        run: |
+        npm install
+        npm run build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+          branch: gh-pages
+          folder: build
+
