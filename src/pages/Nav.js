@@ -30,10 +30,10 @@ export const Navbar = () => {
         </nav>
             <BrowserRouter>
                 <Routes>
-                    <Route title='Homepage' path='/' element={<Homepage />} />
-                    <Route title='Explore' path='/explore' element={<Explore />} />
-                    <Route title='Compare' path='/compare' element={<Compare />} />
-                    <Route title='About' path='/about' element={<About />} />
+                    <Route title='Homepage' path='/gun-violence-dashboard' element={<Homepage />} />
+                    <Route title='Explore' path='/gun-violence-dashboard/explore' element={<Explore />} />
+                    <Route title='Compare' path='/gun-violence-dashboard/compare' element={<Compare />} />
+                    <Route title='About' path='/gun-violence-dashboard/about' element={<About />} />
                 </Routes>
             </BrowserRouter></>
     );
